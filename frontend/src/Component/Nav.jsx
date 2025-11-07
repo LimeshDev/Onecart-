@@ -8,7 +8,7 @@ import { HiOutlineCollection } from "react-icons/hi";
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { userDataContext } from '../context/UserContext';
-import { authDataContext } from '../context/authContext';
+import { authDataContext } from '../context/AuthContext';
 import { shopDataContext } from '../context/ShopContext';
 
 function Nav() {
