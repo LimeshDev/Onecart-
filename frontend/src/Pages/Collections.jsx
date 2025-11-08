@@ -3,7 +3,7 @@ import { FaChevronRight } from "react-icons/fa";
 import { FaChevronDown } from "react-icons/fa";
 import Title from '../Component/Title';
 import { shopDataContext } from '../Context/ShopContext';
-import Card from '../component/Card';
+import Card from '../Component/Card';
 
 function Collections() {
 
