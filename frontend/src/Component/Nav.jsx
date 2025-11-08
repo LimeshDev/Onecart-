@@ -7,9 +7,9 @@ import { IoMdHome } from "react-icons/io";
 import { HiOutlineCollection } from "react-icons/hi";
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import { userDataContext } from '../context/UserContext';
-import { authDataContext } from '../context/AuthContext';
-import { shopDataContext } from '../context/ShopContext';
+import { userDataContext } from '../Context/UserContext';
+import { authDataContext } from '../Context/AuthContext';
+import { shopDataContext } from '../Context/ShopContext';
 
 function Nav() {
   let { getCurrentUser, userData } = useContext(userDataContext);
