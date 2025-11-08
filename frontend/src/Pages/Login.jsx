@@ -11,7 +11,7 @@ import axios from 'axios';
 import { signInWithPopup } from 'firebase/auth';
 // import { auth, provider } from '../../utils/Firebase';
 import { userDataContext } from '../Context/UserContext';
-import Loading from '../component/Loading';
+import Loading from '../Component/Loading';
 
 function Login() {
     let [show,setShow] = useState(false)
