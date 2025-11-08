@@ -12,7 +12,7 @@ import { signInWithPopup } from 'firebase/auth';
 // import { auth, provider } from '../../utils/Firebase';
 import { userDataContext } from '../Context/UserContext';
 import { toast } from 'react-toastify';
-import Loading from '../component/Loading';
+import Loading from '../Component/Loading';
 
 function Registration() {
     let [show,setShow] = useState(false)
