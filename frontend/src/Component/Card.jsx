@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { shopDataContext } from '../context/ShopContext'
+import { shopDataContext } from '../Context/ShopContext'
 import { useNavigate } from 'react-router-dom'
 
 function Card({name , image , id , price}) {
