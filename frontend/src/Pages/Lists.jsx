@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
-import Nav from '../component/Nav'
-// import Sidebar from '../component/Sidebar'
-import { authDataContext } from '../context/AuthContext'
+import Nav from '../Component/Nav'
+// import Sidebar from '../Component/Sidebar'
+import { authDataContext } from '../Context/AuthContext'
 import axios from 'axios'
 
 function Lists() {
