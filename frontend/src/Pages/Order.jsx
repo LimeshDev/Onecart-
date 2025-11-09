@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
-import Title from '../component/Title'
+import Title from '../Component/Title'
 import { shopDataContext } from '../Context/ShopContext'
 import { authDataContext } from '../Context/AuthContext'
 import axios from 'axios'
