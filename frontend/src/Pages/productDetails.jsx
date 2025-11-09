@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { shopDataContext } from '../Context/ShopContext';
 import { FaStar, FaStarHalfAlt } from "react-icons/fa";
-import RelatedProduct from '../component/RelatedProduct';
+import RelatedProduct from '../Component/RelatedProduct';
 
 function ProductDetail() {
   const { productId } = useParams();
