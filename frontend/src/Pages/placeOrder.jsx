@@ -1,13 +1,13 @@
 import React, { useContext, useState } from 'react'
-import Title from '../component/Title'
-import CartTotal from '../component/CartTotal'
+import Title from '../Component/Title'
+import CartTotal from '../Component/CartTotal'
 import razorpay from '../assets/Razorpay.jpg'
-import { shopDataContext } from './context/ShopContext'
-import { authDataContext } from './context/AuthContext'
+import { shopDataContext } from './Context/ShopContext'
+import { authDataContext } from './Context/AuthContext'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
-import Loading from '../component/Loading'
+import Loading from '../Component/Loading'
 
 function PlaceOrder() {
     let [method,setMethod] = useState('cod')
