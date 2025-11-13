@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react'
 import Title from '../Component/Title'
 import CartTotal from '../Component/CartTotal'
 import razorpay from '../assets/Razorpay.jpg'
-import { shopDataContext } from './Context/ShopContext'
+import { ShopContext } from "../Context/ShopContext";
 import { authDataContext } from './Context/AuthContext'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
